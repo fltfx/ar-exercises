@@ -7,12 +7,12 @@ puts "Exercise 4"
 puts "----------"
 
 # Your code goes here ...
-burnaby = Store.create(annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
-richmond = Store.create(annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
-gastown = Store.create(annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
-surrey = Store.create(annual_revenue: 224000, mens_apparel: false, womens_apparel: true)
-whistler = Store.create(annual_revenue: 1900000, mens_apparel: true, womens_apparel: false)
-yaletown = Store.create(annual_revenue: 430000, mens_apparel: true, womens_apparel: true)
+Store.create(name: 'burnaby', annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
+Store.create(name: 'richmond', annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
+Store.create(name: 'gastown', annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
+Store.create(name: 'surrey', annual_revenue: 224000, mens_apparel: false, womens_apparel: true)
+Store.create(name: 'whistler', annual_revenue: 1900000, mens_apparel: true, womens_apparel: false)
+Store.create(name: 'yaletown', annual_revenue: 430000, mens_apparel: true, womens_apparel: true)
 
 puts Store.all.count
 
